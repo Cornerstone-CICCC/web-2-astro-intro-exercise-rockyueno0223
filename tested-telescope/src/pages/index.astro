@@ -1,0 +1,29 @@
+---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Header />
+<Layout title="Home">
+  <main>
+    <h1>Welcome to the Home Page</h1>
+    <p>This is the main content of the homepage.</p>
+  </main>
+</Layout>
+<Footer />
+
+<style>
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    color: #333;
+  }
+</style>
